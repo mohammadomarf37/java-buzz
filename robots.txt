@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.javabuzz.com/sitemap.xml
+Sitemap: https://javabuzz2.netlify.app/sitemap.xml
