@@ -20,4 +20,4 @@ A modern, responsive website designed for "Java Buzz", a new coffee shop.
 2. Open `index.html` in your web browser.
 
 ## Submission Link
-[Paste your GitHub Repository Link Here]
+[https://github.com/mohammadomarf37/java-buzz.git]
