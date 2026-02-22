@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View the Java Buzz menu. Hot coffee, cold brew, and delicious desserts.">
+    <meta name="keywords" content="coffee menu, espresso, latte, pastries, java buzz">
+    <title>Menu | Java Buzz</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Java <span>Buzz</span></a>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="menu-page">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Menu</h2>
+                <p>Explore our wide range of beverages and treats.</p>
+            </div>
+
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="hot">Hot Coffee</button>
+                <button class="category-btn" data-category="cold">Cold Coffee</button>
+                <button class="category-btn" data-category="dessert">Desserts</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Hot Coffee -->
+                <div class="menu-item" data-category="hot">
+                    <div class="menu-item-header">
+                        <h3>Espresso</h3>
+                        <span class="price">$2.50</span>
+                    </div>
+                    <p>Rich, bold, and intense. The foundation of all our drinks.</p>
+                </div>
+                <div class="menu-item" data-category="hot">
+                    <div class="menu-item-header">
+                        <h3>Cappuccino</h3>
+                        <span class="price">$4.00</span>
+                    </div>
+                    <p>Equal parts espresso, steamed milk, and milk foam.</p>
+                </div>
+                <div class="menu-item" data-category="hot">
+                    <div class="menu-item-header">
+                        <h3>Americano</h3>
+                        <span class="price">$3.00</span>
+                    </div>
+                    <p>Espresso diluted with hot water for a smoother taste.</p>
+                </div>
+                <div class="menu-item" data-category="hot">
+                    <div class="menu-item-header">
+                        <h3>Mocha</h3>
+                        <span class="price">$4.75</span>
+                    </div>
+                    <p>Espresso, chocolate syrup, steamed milk, and whipped cream.</p>
+                </div>
+
+                <!-- Cold Coffee -->
+                <div class="menu-item" data-category="cold">
+                    <div class="menu-item-header">
+                        <h3>Iced Latte</h3>
+                        <span class="price">$4.50</span>
+                    </div>
+                    <p>Espresso and cold milk over ice.</p>
+                </div>
+                <div class="menu-item" data-category="cold">
+                    <div class="menu-item-header">
+                        <h3>Cold Brew</h3>
+                        <span class="price">$4.00</span>
+                    </div>
+                    <p>Steeped for 18 hours. Smooth and never bitter.</p>
+                </div>
+                <div class="menu-item" data-category="cold">
+                    <div class="menu-item-header">
+                        <h3>Iced Mocha</h3>
+                        <span class="price">$5.00</span>
+                    </div>
+                    <p>Chocolate and espresso over ice with cold milk.</p>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-item" data-category="dessert">
+                    <div class="menu-item-header">
+                        <h3>Chocolate Croissant</h3>
+                        <span class="price">$3.75</span>
+                    </div>
+                    <p>Buttery layers filled with dark chocolate.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <div class="menu-item-header">
+                        <h3>Blueberry Muffin</h3>
+                        <span class="price">$3.00</span>
+                    </div>
+                    <p>Freshly baked daily with organic blueberries.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <div class="menu-item-header">
+                        <h3>Cheesecake Slice</h3>
+                        <span class="price">$5.50</span>
+                    </div>
+                    <p>New York style cheesecake with berry compote.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Java Buzz</h4>
+                    <p>Freshly brewed happiness in every cup. Visit us today.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="order.html">Order Online</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>123 Coffee Lane, Brew City</p>
+                    <p>hello@javabuzz.com</p>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Java Buzz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

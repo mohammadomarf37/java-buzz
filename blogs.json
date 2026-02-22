@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "The Art of Pour Over",
+        "date": "Oct 12, 2023",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=500&q=60",
+        "excerpt": "Discover why the pour-over method brings out the subtlest notes in your coffee beans."
+    },
+    {
+        "id": 2,
+        "title": "New Seasonal Latte: Pumpkin Spice",
+        "date": "Oct 05, 2023",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+        "excerpt": "Fall is here! Come try our homemade pumpkin spice syrup made from real pumpkins."
+    },
+    {
+        "id": 3,
+        "title": "Meet Our Baristas",
+        "date": "Sep 28, 2023",
+        "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80",
+        "excerpt": "Get to know the talented team behind the counter making your morning brew."
+    },
+    {
+        "id": 4,
+        "title": "Sourcing Sustainable Beans",
+        "date": "Sep 15, 2023",
+        "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=500&q=60",
+        "excerpt": "We believe in fair trade. Learn about the farms we partner with in Ethiopia and Colombia."
+    },
+    {
+        "id": 5,
+        "title": "5 Coffee Myths Debunked",
+        "date": "Sep 01, 2023",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=60",
+        "excerpt": "Does coffee stunt your growth? We separate fact from fiction."
+    },
+    {
+        "id": 6,
+        "title": "Pairing Pastries with Espresso",
+        "date": "Aug 20, 2023",
+        "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=500&q=60",
+        "excerpt": "Which croissant goes best with a dark roast? Our guide to the perfect pairing."
+    },
+    {
+        "id": 7,
+        "title": "Java Buzz Community Event",
+        "date": "Aug 10, 2023",
+        "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=500&q=60",
+        "excerpt": "Join us this Saturday for a local artist showcase and live acoustic music."
+    },
+    {
+        "id": 8,
+        "title": "Cold Brew vs. Iced Coffee",
+        "date": "Jul 25, 2023",
+        "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=500&q=60",
+        "excerpt": "They aren't the same thing! Learn the difference in brewing time and flavor profile."
+    },
+    {
+        "id": 9,
+        "title": "How to Froth Milk at Home",
+        "date": "Jul 12, 2023",
+        "image": "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=500&q=60",
+        "excerpt": "No expensive machine? No problem. Here is how to get silky foam with a jar."
+    },
+    {
+        "id": 10,
+        "title": "The History of the Cappuccino",
+        "date": "Jun 30, 2023",
+        "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=500&q=60",
+        "excerpt": "From the Capuchin monks to modern cafes, explore the rich history of this classic drink."
+    }
+]
